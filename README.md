@@ -11,4 +11,4 @@ creates new folder in ./release-builds with the executable
 
 ### demo
 
-[[https://github.com/jbrods22/plex_electron/blob/master/img/demo.png|alt=octocat]]
+![demo](https://github.com/jbrod22/plex_electron/blob/master/demo.png)
