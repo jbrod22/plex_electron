@@ -1,0 +1,22 @@
+{
+  "name": "plex_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "buildMac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+    "buildWindows": "electron-packager . plex_electron --overwrite --asar=true --platform=win32 --arch=ia32  --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='Plex Standalone"
+  },
+  "files": [
+    "main.css",
+    "main.html",
+    "main.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.8",
+    "electron-packager": "^13.1.1"
+  }
+}
