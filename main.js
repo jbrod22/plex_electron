@@ -13,7 +13,7 @@ electron.app.on("ready", function(){
             webaudio: true
         },
         autoHideMenuBar: true,
-        icon: __dirname + "/plex-icon.png"
+        icon: __dirname + "/plex.ico"
     });
 
     electronWindow.loadURL("file://" + __dirname + "/main.html");

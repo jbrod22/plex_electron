@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "electron .",
-    "buildMac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
-    "buildWindows": "electron-packager . plex_electron --overwrite --asar=true --platform=win32 --arch=ia32  --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='Plex Standalone"
+    "macBuild": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=plex.ico.icns --prune=true --out=release-builds",
+    "windowsBuild": "electron-packager . PlexElectron --overwrite --asar=true --platform=win32 --arch=ia32 --icon=plex.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=Plex Standalone"
   },
   "files": [
     "main.css",
